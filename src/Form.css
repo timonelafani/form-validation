@@ -1,0 +1,61 @@
+/* Line below sign up */
+.line {
+  width: 100px;
+  height: 5px;
+  background: linear-gradient(to right, #dfa579, #c79081);
+  margin: 5px auto 20px auto;
+}
+
+/* Text */
+h1 {
+  font-family: "Rubik", sans-serif;
+  font-weight: 300;
+  margin: 0;
+}
+
+/* Wrappers */
+.wrapper {
+  background: linear-gradient(to right, #dfa579, #c79081);
+  padding: 1rem;
+}
+.form-wrapper {
+  width: 400px;
+  background: white;
+  border: 1px solid rgb(223, 223, 223);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 2rem 3rem;
+  margin: 0 auto;
+}
+
+/* Inputs */
+input {
+  width: 100%;
+  height: 50px;
+  font-family: "Rubik", sans-serif;
+  font-weight: 300;
+  font-size: 1.2rem;
+  background-color: rgb(253, 250, 250);
+  outline: 0;
+  border: 0;
+  border-bottom: 3px solid #d6bdaa;
+  padding: 20px 15px 10px;
+  margin-bottom: 20px;
+  transition: border 0.2s ease-in;
+  box-sizing: border-box;
+}
+input:hover {
+  background-color: rgb(243, 237, 237);
+}
+input:focus {
+  border-bottom: 3px solid #c79081;
+}
+input[type="submit"] {
+  width: auto;
+  height: 50px;
+  background: linear-gradient(to right, #dfa579, #c79081);
+  border: 1px solid rgb(207, 207, 207);
+  padding: 13px 50px 30px 50px;
+}
+input[type="submit"]:hover {
+  background: linear-gradient(to right, #ddad89, #ca9f93);
+}
